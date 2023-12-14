@@ -1,0 +1,79 @@
+body {
+    width: 1440px;
+    height: 4628px; 
+    background: var(--colour-secondary-white-100-general, #FFF);
+}
+#Nav{
+    width: 1440px;
+    height: 60px;
+    flex-shrink: 0;
+    display: flex;
+    flex: row;
+}
+#group{
+    width: 245px;
+    height: 24px;
+    flex-shrink: 0;
+    display: flex;
+    flex: row;
+}
+#home{
+    color: var(--Colour-Main-Blue-500, #505F98);
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Regular 14 */
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+}
+#about{
+    color: var(--Colour-Main-Blue-500, #505F98);
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Regular 14 */
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+}
+#contact{
+    color: var(--Colour-Main-Blue-500, #505F98);
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Regular 14 */
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+}
+#button{
+    color: var(--colour-secondary-white-100-general, #FFF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    
+    /* Medium 12 */
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 150% */
+    width: 160px;
+}
+#ElementButton{
+    width: 160px;
+    height: 26px;
+    flex-shrink: 0;
+    display: flex;
+    flex: auto;
+}
+#Hero{
+    width: 1911.324px;
+    height: 1161px;
+    flex-shrink: 0; 
+    display: flex;
+    flex: auto;
+}
